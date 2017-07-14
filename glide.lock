@@ -1,0 +1,45 @@
+hash: 0d85cf3f42bec4bba6ef82e373514c6e7b00c73b073831da0718af41a4e30483
+updated: 2017-07-14T11:58:21.565227069+02:00
+imports:
+- name: cloud.google.com/go
+  version: 3e1507a0d90d17e4fdd8ef75e8f037ebecc854ba
+  subpackages:
+  - compute/metadata
+- name: github.com/golang/protobuf
+  version: 2402d76f3d41f928c7902a765dfc872356dd3aad
+  subpackages:
+  - proto
+- name: golang.org/x/net
+  version: a6577fac2d73be281a500b310739095313165611
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: cce311a261e6fcf29de72ca96827bdb0b7d9c9e6
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: google.golang.org/appengine
+  version: ad2570cd3913654e00c5f0183b39d2f998e54046
+  subpackages:
+  - datastore
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - internal/user
+  - log
+  - remote_api
+  - urlfetch
+  - user
+- name: gopkg.in/caarlos0/env.v2
+  version: d0de832ed2fbc4e7bfaa30ab5cf0b3417d15f529
+testImports:
+- name: github.com/verdverm/frisby
+  version: b16556248a9a21a8166936e49771527189661abe

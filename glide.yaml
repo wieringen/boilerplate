@@ -1,0 +1,12 @@
+package: github.com/wieringen/boilerplate
+import:
+- package: gopkg.in/caarlos0/env.v2
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/appengine
+  subpackages:
+  - datastore
+  - remote_api
+testImport:
+- package: github.com/verdverm/frisby
